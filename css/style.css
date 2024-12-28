@@ -235,6 +235,12 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 50px;
   clear: both;
 }
+
+.section-heading.no-bottom {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
 .section-heading.svg-sm-2 .svg {
   height: 150px;
   margin-bottom: 0;
@@ -280,9 +286,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #qbootstrap-couple,
 #qbootstrap-countdown,
-#qbootstrap-groom-bride,
+#qbootstrap-place,
 #qbootstrap-story,
-#qbootstrap-people,
 #qbootstrap-when-where,
 #qbootstrap-started,
 #qbootstrap-gallery,
@@ -293,9 +298,8 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 480px) {
   #qbootstrap-couple,
   #qbootstrap-countdown,
-  #qbootstrap-groom-bride,
+  #qbootstrap-place,
   #qbootstrap-story,
-  #qbootstrap-people,
   #qbootstrap-when-where,
   #qbootstrap-started,
   #qbootstrap-gallery,
@@ -1685,3 +1689,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+.align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
