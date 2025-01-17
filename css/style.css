@@ -929,7 +929,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 
-.timeline-body > p + p {
+.timeline-body >  p {
   margin-top: 5px;
 }
 
@@ -1693,4 +1693,20 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.bg-photo-main {
+  background-position: 0 700px;
+}
+@media screen and (max-width: 768px) {
+  .bg-photo-main {
+    background-position: 140px -80px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  #qbootstrap-countdown .countdown {
+    font-size: 30px;
+  }
 }
