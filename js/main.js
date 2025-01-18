@@ -289,8 +289,7 @@
 		
 	var bgVideo = function() {
 		$('.player').mb_YTPlayer();
-	};
-        
+	}; 
 
 	// Document on load.
 	$(function(){
@@ -309,3 +308,8 @@
 
 
 }());
+
+var openModalPix = function() {
+	$('#modalPix').modal('show'); 
+}
+   
